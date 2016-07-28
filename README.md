@@ -28,13 +28,13 @@ Usage : date -x n
 Examples :
     ex.(1): returns the date of yesterday. 
     dater -d -1 
-    
+  
     ex.(2): returns same day next month. 
     dater -m +1 
-    
+  
     ex.(3): returns same day last year.
     dater -y -1
-     
+   
     ex.(4): makes all calculations based on the provided date, using a date other than the system's. adds one month to October 5 2006
     dater -i 20060510 +m
     
@@ -44,7 +44,8 @@ Examples :
     Return format :
          _07_03_2005_16_23_34_Mon Mar  7 16:23:34 2005 
          _DD_MM_YYYY_HH_MI_SS_DAY MON  wDay HH:MI:SS YYYY
-                        
+  
+  
   hours (HH) are in 24 format
   
   room for expansion:
